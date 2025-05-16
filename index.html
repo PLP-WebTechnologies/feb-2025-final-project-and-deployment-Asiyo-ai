@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang=en>  
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blog:Nairobi</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        
+        <style>
+            /* Navbar styles */
+            nav {
+                background: #222;
+                border-radius: 6px;
+                margin-top: 10px;
+            }
+            #menu {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            #menu li {
+                margin: 0;
+            }
+            #menu li a {
+                display: block;
+                padding: 12px 24px;
+                color: #fff;
+                text-decoration: none;
+                transition: background 0.3s, color 0.3s;
+            }
+            #menu li a:hover {
+                background: #ff9800;
+                color: #222;
+                border-radius: 6px;
+            }
+            /* Hamburger for mobile */
+            .menu-toggle {
+                display: none;
+                flex-direction: column;
+                cursor: pointer;
+                margin-left: auto;
+                margin-right: 10px;
+            }
+            .menu-toggle span {
+                height: 3px;
+                width: 25px;
+                background: #fff;
+                margin: 4px 0;
+                border-radius: 2px;
+                transition: 0.4s;
+            }
+            @media (max-width: 700px) {
+                #menu {
+                    flex-direction: column;
+                    display: none;
+                    width: 100%;
+                }
+                #menu.active {
+                    display: flex;
+                }
+                .menu-toggle {
+                    display: flex;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header id="githu">
+                <div id="navbar-placeholder"></div>
+            </header>
+            <section id="banner">
+                <div class="container">
+            
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="container-main">
+                        <main>
+                            <article>
+                                <h2>The Streets of Nairobi</h2>
+                                <span>Pupblished: 16/5/2025</span>
+                                <img src="img/img2.jpg" alt="">
+                                <p>Kencom House is a prominent landmark situated in Nairobi's Central Business District (CBD), at the intersection of Moi Avenue and City-Hall Way. Completed in 1977, it was designed by architect George Vamos and constructed under the leadership of John Michuki during his tenure as chairman of Kenya Commercial Bank (KCB) .</p>
+                                <p>For those navigating Nairobi, Kencom House serves as a convenient reference point and a gateway to the city's vibrant culture and commerce</p>
+                                <a href="#">Home..</a>
+                            </article>
+                            <article>
+                                <h2>The only City with a National Park at the center-The city of the Sun</h2>
+                                <span>Published: 15/05/2025</span>
+                                <img src="img/img3.jpg" alt="gazzel">
+                                <p>Located just 7 kilometers (4 miles) from the city center, Nairobi National Park offers a rare blend of urban life and raw wilderness. As skyscrapers and city buildings form a dramatic backdrop, visitors can observe a wide array of wildlife in a natural savanna setting.</p>
+                                <p> <h3>Key Features of the National Park</h3>
+                                    <ol>
+                                        <li> <b>Wildlife: </b> The park is home to a diverse range of animals, including lions, giraffes, zebras, and rhinos.</li>
+                                        <li> <b>Accessibility: </b> Its proximity to the city center makes it easy for both locals and tourists to visit.</li>
+                                        <li><b>Conservation: </b> The park plays a crucial role in wildlife conservation and education.</li>
+                                        <li> <b>Activities: </b> Visitors can enjoy game drives, picnics, and guided tours.</li>
+                                    </ol></p>
+                                <a href="#">Home..</a>
+                            </article>
+                            <article>
+                                <h2>Pets in Nairobi</h2>
+                                <span>published: 07/01/2024</span>
+                                <img src="img/img4.jpg" alt="cat">
+                                <p>In Nairobi, pets, particularly dogs and cats, are increasingly popular and cherished companions, with a growing number of pet-related businesses catering to their needs. While pet ownership is becoming more common, it's also important to consider the challenges and regulations involved in caring for animals in the city</p>
+                                <a href="#">Home..</a>
+                            </article>    
+                        </main>
+                        <aside>
+                            <div class="aside-item" id="sobreMim">
+                                <h2>Geoffry Asiyo</h2>
+                                <img src="img/picProfile.jpg" alt="">
+                                <h3>Name</h3>
+                                <p>I’m a blogger with a curious mind and a restless spirit, writing at the intersection of tech, lifestyle, travel, career, and personal development. My blog is where innovation meets introspection—where I explore the tools that shape our lives and the journeys that shape who we are.</p>
+                            </div>
+                            <div class="aside-item">
+                                <h2>Categories</h2>
+                                <nav id="categorias-links">
+                                    <ul>
+                                        <li><a href="#categoria">Mountains<span>42</span></a></li>
+                                        <li><a href="#categoria">Cities<span>09</span></a></li>
+                                        <li><a href="#categoria">Animals<span>15</span></a></li>
+                                        <li><a href="#categoria">Vegetables<span>23</span></a></li>
+                                    </ul>
+                                </nav>
+                               
+                            </div>
+                            <div class="aside-item">
+                                <h2>Popular Tags</h2>
+                                <nav id="tags-popular">
+                                    <a href="#tag">Tag</a>
+                                    <a href="#tag">Pets</a>
+                                    <a href="#tag">Towns</a>
+                                    <a href="#tag">Food</a>
+                                    <a href="#tag">Tourists</a>
+                                    <a href="#tag">Hotels</a>
+                                    <a href="#tag">Drives</a>
+                                    <a href="#tag">Booking</a>
+                                </nav>
+
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <div class="container">
+                   <p><strong>Copyright: <a href="www.linkedin.com/in/geoffry-otieno-508357114">Geoffry Asiyo</a><strong></p>
+                </div>
+            </footer>
+        </div>
+        <script src="navbar.js"></script>
+    </body>
+</html>
